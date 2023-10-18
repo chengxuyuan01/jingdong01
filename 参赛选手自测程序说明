@@ -1,0 +1,7 @@
+评测文件夹结构
+-CCF_Eval
+    test_sku_sales.csv  # 销量数据
+    test_sku_prices.csv  # 价格数据，注意：评测数据中会新增ab_type列，取值为'A'
+    test_result.csv  # 参赛选手提供的答案
+    judge.py  # 举办方线上评测代码
+    test_judge.py  # 参赛选手自测入口
